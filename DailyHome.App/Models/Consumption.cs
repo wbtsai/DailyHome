@@ -3,13 +3,13 @@ namespace DailyHome.App.Models
     /// <summary>
     /// 消費清單
     /// </summary>
-    public class Consumption
+    public class Consumption : IPID
     {
         /// <summary>
         /// ID
         /// </summary>
         /// <returns></returns>
-        public string CID{get;set;}
+        public string PID{get;set;}
 
         /// <summary>
         /// m 名稱

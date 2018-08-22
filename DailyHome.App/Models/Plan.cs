@@ -6,7 +6,7 @@ namespace DailyHome.App.Models
     /// <summary>
     /// 計劃清單
     /// </summary>
-    public class Plan
+    public class Plan:IPID
     {
         public string PID{get;set;}
         public string Subject{get;set;}

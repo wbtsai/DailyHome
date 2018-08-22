@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 namespace DailyHome.App.Models
 {
-    public class Task
+    public class Task : IPID
     {
         /// <summary>
         /// TID
         /// </summary>
         /// <returns></returns>
-        public string TID{get;set;}
+        public string PID{get;set;}
 
         public string TaskName{get;set;}
 

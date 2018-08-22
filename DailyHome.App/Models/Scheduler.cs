@@ -4,9 +4,9 @@ namespace DailyHome.App.Models
     /// <summary>
     /// https://www.nuget.org/packages/ncrontab/
     /// </summary>
-    public class Scheduler
+    public class Scheduler : IPID
     {
-        public string SID{get;set;}
+        public string PID{get;set;}
 
         public string Belongto{get;set;}
 
