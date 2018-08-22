@@ -10,9 +10,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="LiteDB" Version="4.1.4" />
     <PackageReference Include="Microsoft.AspNetCore.Blazor.Browser" Version="0.5.1" />
     <PackageReference Include="Microsoft.AspNetCore.Blazor.Build" Version="0.5.1" />
     <PackageReference Include="ncrontab" Version="3.3.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
   </ItemGroup>
 
 </Project>
